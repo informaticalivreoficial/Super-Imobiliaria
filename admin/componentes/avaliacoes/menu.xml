@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigation>
+  <index1>
+    <label>Avaliações</label>
+    <icon>fa fa-thumbs-up</icon>
+    <permissao>2</permissao>
+    <link>avaliacoes</link>    
+  </index1>
+  <index>
+    <label>Listar Avaliações</label>
+    <link>avaliacoes</link>    
+  </index>
+  <index>
+    <label>Cadastrar</label>
+    <link>avaliacoes-create</link>    
+  </index>
+</navigation>

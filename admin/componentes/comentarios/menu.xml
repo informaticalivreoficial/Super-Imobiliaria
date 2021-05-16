@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<navigation>
+  <index1>
+    <label>Comentários</label>
+    <icon>fa fa-bullhorn</icon>
+    <permissao>2</permissao>
+    <link>comentarios</link>    
+  </index1>
+  <index>
+    <label>Listar Comentários</label>
+    <link>comentarios</link>    
+  </index> 
+</navigation>

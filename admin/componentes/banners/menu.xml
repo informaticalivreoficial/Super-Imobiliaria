@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigation>
+  <index1>
+    <label>Banners</label>
+    <icon>fa fa-film</icon>
+    <permissao>2</permissao>
+    <link>banners</link>    
+  </index1>
+  <index>
+    <label>Listar Banners</label>
+    <link>banners</link>    
+  </index>
+  <index>
+    <label>Cadastrar Banner</label>
+    <link>banners-create</link>    
+  </index>  
+</navigation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigation>
+  <index1>
+    <label>Imóveis</label>
+    <icon>fa fa-home</icon>
+    <permissao>2</permissao>
+    <link>imoveis</link>    
+  </index1>
+  <index>
+    <label>Listar Imóveis</label>
+    <link>imoveis</link>    
+  </index>
+  <index>
+    <label>Categorias</label>
+    <link>categorias</link>    
+  </index>
+  <index>
+    <label>Bairros</label>
+    <link>bairros</link>    
+  </index>  
+  <index>
+    <label>Acessórios</label>
+    <link>atributos</link>    
+  </index> 
+</navigation>

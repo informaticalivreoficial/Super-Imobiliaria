@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigation>
+  <index1>
+    <label>Parceiros</label>
+    <icon>fa fa-puzzle-piece</icon>
+    <permissao>2</permissao>
+    <link>parceiros</link>    
+  </index1>
+  <index>
+    <label>Listar Parceiros</label>
+    <link>parceiros</link>    
+  </index>
+  <index>
+    <label>Cadastrar Parceiro</label>
+    <link>parceiros-create</link>    
+  </index>  
+</navigation>

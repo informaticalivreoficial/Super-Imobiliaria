@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigation>
+  <index1>
+    <label>Clientes</label>
+    <icon>fa fa-users</icon>
+    <permissao>2</permissao>
+    <link>clientes</link>    
+  </index1>
+  <index>
+    <label>Listar Clientes</label>
+    <link>clientes</link>    
+  </index>
+  <index>
+    <label>Cadastrar Cliente</label>
+    <link>clientes-create</link>    
+  </index> 
+  <index>
+    <label>Categorias</label>
+    <link>categorias</link>    
+  </index> 
+</navigation>

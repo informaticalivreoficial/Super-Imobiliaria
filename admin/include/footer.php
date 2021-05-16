@@ -1,0 +1,1 @@
+Copyright&copy; <?= ANODEINICIO;?> - <?= date('Y');?> <strong><?= SITENAME;?></strong> Todos os direitos reservados. Desenvolvido por <a href="<?= DESENVOLVEDORURL;?>" target="_blank"> <img src="<?= DESENVOLVEDORLOGO;?>" alt="<?= DESENVOLVEDOR;?>" title="<?= DESENVOLVEDOR;?>" width="62" /></a>
