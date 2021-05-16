@@ -1,0 +1,204 @@
+.imgimovel{
+    max-width: 1080px;   /* Máximo da largura da imagem */
+    width: 100%;
+    max-height: 500px;  /* Máximo da altura da imagem */
+    min-height: auto;      /* Mínimo da altura, por padrão “auto” */
+    background-size:100%;
+    background-repeat: no-repeat; 
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.linkimg {
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate3d(-50%, -50%, 0);
+    -moz-transform:translate3d(-50%, -50%, 0);
+    transform:translate3d(-50%, -50%, 0);
+    z-index:2000;
+    color:#fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    height:35px;
+    width:150px;
+    padding: 5px;
+    text-align: center;
+}
+.linkimg a{
+    color:#fff;
+}
+
+.formContatoResposta .input-text {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 13px;
+    height: 44px;
+    border: 1px solid #e8e7e7;
+    outline: none;
+    color: #717171;
+    border-radius: 3px;
+}
+.formContatoResposta form textarea {
+    min-height: 210px;
+}
+.ralugar{
+   display: none; 
+}
+.rcomprar{
+   display: none;  
+}
+.center{
+    text-align: center;
+}
+.loadimages{
+   display: none; 
+}
+.whatsapp-footer{
+    width: 64px;
+    display: block;
+    position: fixed;
+    bottom: 40px;
+    left: 20px;
+    text-align: center;
+    padding-top: 10px;
+    z-index: 999;
+}
+.balao{
+    display:none;
+    padding: 8px;
+    bottom: 130px;
+    left: 10px;
+    position: fixed;
+    background: #fff;
+	border-radius: 15px;
+	width: 200px;
+	height: 130px;
+    z-index: 999;
+    box-shadow: 2px 2px 4px #000000;
+}
+.balao:after{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #fff;	
+	bottom: -20px;
+	left: 20%;
+}
+.balao textarea{
+    width: 100%;
+    height: 85px;
+    resize: none;
+    border: none;
+}
+.balao button{
+    box-shadow: none;
+    border-radius: 5px;
+    float: right;
+}
+.alertw{
+    left: 13px;
+    bottom: 250px;
+    display: block;
+    position: fixed;
+    z-index: 999;
+}
+
+/* COTAÇÃO DO DÓLAR*/
+.numbers{
+    padding: 10px 0;
+    float: left;
+    font-weight: 400;
+    letter-spacing: .6px;
+}
+.neg {
+    background-color: #d5150b;
+}
+.pos {
+    background-color: #20c634;
+}
+.neutro{
+    background: rgb(204, 204, 204);
+}
+.data {
+    color: #fff;
+    padding: 0 6px;
+    border-radius: 10px;
+}
+.value {    
+    font-size: 13px;
+    line-height: 16px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.logosimulador{
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.seguro{
+    width: 100px;
+    display: block;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    text-align: center;
+    padding-top: 10px;
+    z-index: 999;
+}
+
+
+.arquivo1,.arquivo2,.arquivo3,.arquivo4,.arquivo5,.arquivo6 {
+    display: none !important;
+  }
+  .file {
+    line-height: 30px;
+    height: 30px;
+    border: 1px solid #A7A7A7;
+    padding: 2%;
+    box-sizing: border-box;
+    font-size: 15px;
+    vertical-align: middle;
+    width: 56%;
+  }
+  .btn1,.btn2,.btn3,.btn4,.btn5,.btn6 {
+    border: none;
+    box-sizing: border-box;
+    padding: 2%;
+    background-color: #4493c7;
+    color: #FFF;
+    height: 32px;
+    font-size: 14px;
+    width: 40%;
+    vertical-align: middle;
+  }
+  
+  /* FILTRO DE BUSCA */
+  .search-fields[disabled] {
+    cursor: not-allowed;
+    background-color: #eee;
+    opacity: 1;
+}
+.tab-content{
+}
+@media only screen and (min-width: 768px) {
+  .mobile{
+      display: none;  
+    }
+}
+.mobile li{
+  display: inline-block; 
+  margin-top: 10px; 
+  padding: 10px;
+}

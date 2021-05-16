@@ -1,0 +1,15 @@
+User-agent: *
+
+Allow: 
+User-agent: Googlebot
+
+Allow: 
+User-agent: Googlebot-Image
+
+Allow: 
+User-agent: MediaPartners-Google
+
+Allow:
+User-Agent: Adsbot-Google
+
+Disallow: /app

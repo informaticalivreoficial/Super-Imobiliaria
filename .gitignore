@@ -2,5 +2,10 @@
 /nbproject
 /vendor
 /uploads
+/chat
 /app/config.inc.php
+rss.xml
+sitemap.xml
+sitemap.xsl
+.htaccess
 

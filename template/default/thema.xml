@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+<!-- Configuração do site -->
+<item>
+ <nomedothema>Tema 2018</nomedothema>
+ <versao>1.0</versao>
+ <autor>Renato Montanari</autor>
+ <datacriacao>10/12/2018</datacriacao>
+ <dataatualizacao>27/03/2020</dataatualizacao> 
+</item>
+</config>
