@@ -27,13 +27,13 @@ endif;
 
     <head>
         <meta charset="UTF-8"/>
-        <title>Painel Administrativo - <?php echo ''.SITENAME.'';?></title>
+        <title>Painel Administrativo - <?= SITENAME;?></title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
-        <meta name="title" content="Painel Administrativo - <?php echo SITENAME;?>" />
-        <meta name="description" content="Área restrita aos administradores do site <?php echo SITENAME;?>" />
-        <meta name="keywords" content="Login, Recuperar Senha, <?php echo SITENAME;?>" />
-        <meta name="author" content="<?php echo DESENVOLVEDOR;?>" />   
-        <meta name="url" content="<?php echo DESENVOLVEDORURL;?>" />
+        <meta name="title" content="Painel Administrativo - <?= SITENAME;?>" />
+        <meta name="description" content="Área restrita aos administradores do site <?= SITENAME;?>" />
+        <meta name="keywords" content="Login, Recuperar Senha, <?= SITENAME;?>" />
+        <meta name="author" content="<?= DESENVOLVEDOR;?>" />   
+        <meta name="url" content="<?= DESENVOLVEDORURL;?>" />
         <meta name="robots" content="NOINDEX,NOFOLLOW" />
         
         <!-- Favicon -->

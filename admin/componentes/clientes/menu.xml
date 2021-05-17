@@ -17,5 +17,9 @@
   <index>
     <label>Categorias</label>
     <link>categorias</link>    
+  </index>
+  <index>
+    <label>Time</label>
+    <link>time</link>    
   </index> 
 </navigation>

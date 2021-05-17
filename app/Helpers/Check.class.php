@@ -326,7 +326,7 @@ class Check {
             return false;
         endif;
     }
-    
+        
     /**
      * <b>Formata Numero WhatsApp:</b> Ao executar este HELPER, ele automaticamente converte o numero para o formato aceito
      * zap. retorna o link formatado!
